@@ -1,0 +1,309 @@
+/* id selectors */
+
+#title {
+    background-color: #f6f6f8;
+}
+
+#heading {
+    background-color: #f6f6f8;
+}
+
+
+/* class selectors */
+
+
+/* Title */
+
+.navbar {
+    height: 50px;
+    padding: 2% 12% 2% 12rem;
+}
+
+.navbar img {
+    float: left;
+}
+
+.navbar ul {
+    float: right;
+    margin: 0;
+    padding-top: 14px;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+    padding: 0;
+}
+
+.navbar button {
+    float: right;
+    margin: 0 25px;
+}
+
+
+/* Heading */
+
+#heading .grid-60 {
+    width: 45%;
+    float: left;
+    padding: 6rem;
+    margin-left: 6rem;
+}
+
+#heading .grid-40 {
+    width: 39%;
+    float: right;
+}
+
+.grid-60 .extra-text {
+    color: #ff5300;
+    font-size: small;
+    opacity: 100%;
+}
+
+.grid-60 h1 {
+    text-align: left;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.grid-60 p {
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    opacity: 50%;
+    padding-right: 9rem;
+}
+
+.grid-60 button {
+    margin-top: 30px;
+}
+
+.grid-40 img {
+    opacity: 90%;
+    padding-bottom: 5%;
+}
+
+
+/* blog window */
+
+#blogs-window .win {
+    background-color: white;
+    position: relative;
+    bottom: 8rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #f3f3f3;
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+#blogs-window h2 {
+    display: inline;
+    font-size: 2.2rem;
+}
+
+.topbutton {
+    display: inline;
+    margin-left: 65rem;
+}
+
+#blogs-window .leftbar {
+    width: 75%;
+    float: left;
+    padding: 8px;
+}
+
+#blogs-window .rightbar {
+    width: 20%;
+    float: right;
+}
+
+.leftbar img {
+    float: left;
+}
+
+.leftbar-text h3 {
+    margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.leftbar-text p {
+    margin-left: 16rem;
+    line-height: 1.7rem;
+    padding-right: 2rem;
+}
+
+.leftbar-text .button {
+    margin-left: 37rem;
+}
+
+.rightbar ul {
+    border-left: solid #cccccc;
+}
+
+.rightbar li {
+    margin-top: 2rem;
+    list-style-type: none;
+    line-height: 1rem;
+    color: #cccccc;
+}
+
+.bottombutton {
+    text-align: center;
+    margin: 4rem 0 0 35rem;
+    background-color: white;
+    border: solid 1px #ff5300;
+    color: #ff5300;
+}
+
+
+/* blogs carusol */
+
+
+/* section */
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    width: 98%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* product */
+
+.card {
+    min-width: 27%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #f3f3f3;
+    padding: 1.5rem 2.5rem 2.5rem 0;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+#blogs-carusol {
+    position: relative;
+    padding: 0 13rem;
+}
+
+#blogs-carusol h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 auto 4rem auto;
+}
+
+.intro {
+    line-height: 5px;
+    border-left: solid 0.4rem #ff5300;
+    padding-left: 2rem;
+}
+
+.intro-line1 h4 {
+    display: inline;
+    color: #ff5300;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.intro-line1 h5 {
+    display: inline;
+    color: #949494;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.intro-line2 h5 {
+    font-size: 0.9rem;
+    color: #949494;
+    font-weight: 200;
+}
+
+.card h3 {
+    font-size: 2rem;
+    line-height: 150%;
+    padding-left: 2.4rem;
+    margin-top: 0rem;
+}
+
+.card p {
+    color: #949494;
+    line-height: 150%;
+    font-weight: 500;
+    padding-left: 2.4rem;
+}
+
+.card .button {
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+    background-color: white;
+    border: solid 1px #ff5300;
+    color: #ff5300;
+}
+
+.arrows {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.arrows img {
+    margin: 1.5rem 1.2rem;
+}
+
+.moveF {
+    left: 0px;
+    right: 0px;
+}
+
+.moveB {
+    left: 0px;
+    right: 0px;
+}
+
+
+/* tag selector */
+
+body {
+    background-color: white;
+    margin: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 600;
+    color: #ff5300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff5300;
+}
+
+button {
+    background-color: #ff5300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px 40px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
